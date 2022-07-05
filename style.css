@@ -116,7 +116,7 @@ body{
     color: #FF5959;
 }
 
-.donate-input{
+.donate-input input{
      border: 0; 
      margin-top: 60px;
      font-family: 'Poppins';
@@ -126,8 +126,14 @@ body{
      line-height: 28px;
      text-align: center;
      margin-top: 35px;
-     margin-bottom: 5px;
-              
+     margin-bottom: 5px;            
+}
+
+.donate-input hr{
+    width: 50%; 
+    margin-top: 0; 
+    margin-bottom: 0;           
+    opacity: 35%;
 }
 
 /* Donate area design end here */
