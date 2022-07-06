@@ -23,6 +23,7 @@ body{
     margin-top: 30px;
 }
 
+<<<<<<< HEAD
 .content h1{
     font-family: 'Inter';
     font-style: normal;
@@ -34,6 +35,8 @@ body{
 }
 
 
+=======
+>>>>>>> 390ecc73f662446e177c22990fe327a772daf13a
 /* Common Css End Here */
 
 /* Header area design start here */
@@ -83,8 +86,13 @@ body{
   content: "";
   width: 100%;
   height: 100%;
+<<<<<<< HEAD
   background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
   opacity: 2;
+=======
+  background-color: #333;
+  opacity: .45;
+>>>>>>> 390ecc73f662446e177c22990fe327a772daf13a
   z-index: -1;  
 }
 /* Header area design end here */
@@ -96,7 +104,10 @@ body{
     text-align: center;
 }
 
+<<<<<<< HEAD
  
+=======
+>>>>>>> 390ecc73f662446e177c22990fe327a772daf13a
 .donate-area p{
     padding:  0 30%;
 }
@@ -148,6 +159,7 @@ body{
     opacity: 35%;
 }
 
+<<<<<<< HEAD
 /* Donate area design end here */
 
 /* Donate Plan area design start here */
@@ -251,3 +263,6 @@ body{
 }
 
 
+=======
+/* Donate area design end here */
+>>>>>>> 390ecc73f662446e177c22990fe327a772daf13a
