@@ -24,6 +24,7 @@ body{
     cursor: pointer;
 }
 
+
 .content h1{
     font-family: 'Inter';
     font-style: normal;
@@ -81,7 +82,7 @@ body{
 }
 .card2{
     background: #FF59591A;
-    ;
+    
 }
 .card3{
     background: #FFF4D6;
@@ -147,6 +148,8 @@ body{
 
 
 /* Donate area design start here */
+
+ 
 .donate-area{
     margin-top: 130px;
     text-align: center;
@@ -240,10 +243,18 @@ body{
     margin-bottom: 30px;
 }
 
+ 
+
 .contribution-img img{
     width: 500px;
     height: 400px;
 }
+
+.contribute-part1 .contribute-content{
+    margin-right: 30px;
+    padding: 0;
+}
+
 
 .contribute-part2 .contribute-content{
     padding-left: 105px;
@@ -257,11 +268,9 @@ body{
     border-radius: 5px;
     border-style: none;
     font-family: 'Inter';
-    font-style: normal;
     font-weight: 450;
     font-size: 20px;
-    line-height: 24px;
-    margin-top: 30px;
+    margin-top: 50px;
     width: 230px;
     height: 56px;
 }
@@ -271,7 +280,7 @@ body{
 /* Contribute area design End here */
 
 /* More Feature Design Start Here */
-
+ 
 .more-feature-card{
     text-align: center;
 }
@@ -295,6 +304,10 @@ body{
     line-height: 24px;
     margin-top: 30px;
 }
+
+.more-feature-card .card-design:hover{
+    background: #FF59591A;
+}
 /* Get My Updates Design End Here */
 
 /* Get My Updates Design End Here */
@@ -304,7 +317,7 @@ body{
 }
 
 .subscribe-form{
-    text-align: center;
+     
     width: 809px;
     height: 200px;
     background: #FFF4D6;
@@ -349,6 +362,7 @@ body{
     height: 177px;
     background: #0B0D17;
     position: relative;
+    margin-top: 150px;
 }
 .footer-content{
     text-align: center;
@@ -356,20 +370,20 @@ body{
     left: 50%;
     top: 50%;
     transform: translate(-50% , -50%);
-    margin: 0;
+    margin: 0 auto;
 }
 
 
 
 .footer-content h3{
     font-family: 'Lobster';
-    font-style: normal;
+    font-style: initial;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 44px;
     letter-spacing: 0.5px;
     color: #FF5959;
-    margin: 0;
+    margin-bottom: 20px;
 }
 
 .footer-content p{
@@ -380,7 +394,8 @@ body{
     line-height: 24px;
     font-feature-settings: 'liga' off;
     color: #D9DBE1;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 /* Footer area end here */
