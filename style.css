@@ -33,6 +33,61 @@ body{
     color: #121212;
 }
 
+/* Card Design Start Here */
+.card-design-area{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+
+.card-design{
+    width: 360px;
+    height: 352px;
+    left: 157px;
+    top: 1595.5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 35px;
+    margin-left: 25px;  
+}
+
+.card-design img{
+     padding-bottom: 30px;
+}
+
+.card-design h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+.card-design p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+     
+}
+
+.card1{
+    background: rgba(79, 157, 166, 0.1);
+}
+.card2{
+    background: #FF59591A;
+    ;
+}
+.card3{
+    background: #FFF4D6;
+}
+
+/* Card Design Start Here */
+
 
 /* Common Css End Here */
 
@@ -163,55 +218,35 @@ body{
     padding: 0 30%;
 }
 
- 
-.donate-plan-card{
-    margin-top: 45px;
-    display: flex;
-}
-
-.donate-card-content{
-    width: 360px;
-    height: 352px;
-    left: 157px;
-    top: 1595.5px;
-    border-radius: 5px;
-    margin: 0 auto;
-    padding: 35px;
-}
-
-.donate-card-content img{
-     padding-bottom: 30px;
-}
-
-.donate-card-content h3{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-}
-.donate-card-content p{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #707070;
-     
-}
-
-.card1{
-    background: rgba(79, 157, 166, 0.1);
-}
-.card2{
-    background: #FF59591A;
-    ;
-}
-.card3{
-    background: #FFF4D6;
-}
 /* Donate Plan area design end here */
 
+/* More Feature Design Start Here */
+.more-feature-card{
+    text-align: center;
+}
+.more-feature-card p{
+    margin-bottom: 40px;
+}
+.more-feature-card a{
+    text-decoration: none;
+    padding: 16px 20.5px;
+    background: #FF5959;
+    color: #fff;
+    border-radius: 5px;
+    border-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 30px;
+}
+/* Get My Updates Design End Here */
+
+/* Get My Updates Design End Here */
+.get-my-update-area{
+    text-align: center;
+}
  /* Footer area design Start here  */
 .footer-area{
     width: 100%;
@@ -250,45 +285,5 @@ body{
     margin-top: 20px;
 }
 
-
-/* Donate area design end here */
-
-
-/* Footer area design Start here  */
-.footer-area{
-    width: 100%;
-    height: 177px;
-    background: #0B0D17;
-    position: relative;
-}
-.footer-content{
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50% , -50%);
-    margin: 0;
-}
-
-.footer-content h3{
-    font-family: 'Lobster';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 44px;
-    letter-spacing: 0.5px;
-    color: #FF5959;
-    margin: 0;
-}
-
-.footer-content p{
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    font-feature-settings: 'liga' off;
-    color: #D9DBE1;
-    margin-top: 20px;
-}
-/* Footer area design End here  */
+/* Footer area end here */
+ 
