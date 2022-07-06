@@ -220,11 +220,64 @@ body{
 }
 
 /* Donate Plan area design end here */
+/* Contribute area design Start here */
+.contribute-area{
+    width: 77%;
+    margin: 0 auto;
+}
+
+.contribute-part1{
+    display: flex;
+}
+
+.contribute-part2{
+    display: flex;
+    margin-top: 100px;
+}
+
+.contribute-content{
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.contribution-img img{
+    width: 500px;
+    height: 400px;
+}
+
+.contribute-part2 .contribute-content{
+    padding-left: 105px;
+}
+
+.contribute-content a{
+    text-decoration: none;
+    padding: 16px 20.5px;
+    background: #FF5959;
+    color: #fff;
+    border-radius: 5px;
+    border-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 30px;
+    width: 230px;
+    height: 56px;
+}
+
+
+
+/* Contribute area design End here */
 
 /* More Feature Design Start Here */
+
 .more-feature-card{
     text-align: center;
 }
+ .more-features-area{
+    margin-top: 100px;
+ }
 .more-feature-card p{
     margin-bottom: 40px;
 }
